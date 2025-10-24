@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "nfc-server": {
+      "command": "npx",
+      "args": [
+        "mcp-server-nfc"
+      ],
+      "env": {
+        "ATLAS_NAME": "antikodedevelop:qEGSobyFMEp4nYeH",
+        "ATLAS_ADDRESS": "compassnfc.upzeusp.mongodb.net",
+        "ATLAS_COLLECTION": "test",
+        "UTURN_API": "https://compass.utntech.com/api/verify-nfc",
+        "SHOPIFY_STOREFRONT_ACCESSTOKEN": "29d256df6d33d3bd0f8fda1cd0539e02",
+        "SHOPIFY_STORE_DOMAIN": "https://62e5c5-55.myshopify.com",
+        "KEY": "black_owl"
+      }
+    }
+  },
+  "preferences": {
+    "quickEntryShortcut": "double-tap-option"
+  }
+}
