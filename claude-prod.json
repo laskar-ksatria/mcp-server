@@ -1,0 +1,23 @@
+{
+    "mcpServers": {
+      "nfc-server": {
+        "command": "npx",
+        "args": ["mcp-server-nfc"],
+        "env": {
+          "NODE_PATH": "/Users/LaskarAntikode/.nvm/versions/node/v21.7.3/lib/node_modules",
+          "SHOPIFY_STORE_DOMAIN": "https://62e5c5-55.myshopify.com",
+          "SHOPIFY_API_VERSION": "2024-01",
+          "SHOPIFY_STOREFRONT_ACCESSTOKEN": "29d256df6d33d3bd0f8fda1cd0539e02",
+          "ATLAS_NAME": "antikodedevelop:qEGSobyFMEp4nYeH",
+          "ATLAS_ADDRESS": "compassnfc.upzeusp.mongodb.net",
+          "ATLAS_COLLECTION": "test",
+          "UTURN_API": "https://compass.utntech.com/api/verify-nfc",
+          "KEY": "black_owl"
+        }
+      }
+    },
+    "preferences": {
+      "quickEntryShortcut": "double-tap-option"
+    }
+  }
+  
