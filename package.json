@@ -1,6 +1,6 @@
 {
   "name": "mcp-server-nfc",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "MCP Server for NFC operations with test ping functionality",
   "type": "module",
   "main": "index.js",
