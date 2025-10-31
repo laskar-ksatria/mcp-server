@@ -200,9 +200,9 @@ export const add_product_collection = async ({
 // ===================================================================================== //
 // INJECT_PRODUCT_COLLECTION
 // ===================================================================================== //
-export const get_uturn_information = async ({ nfc_code }) => {
+export const get_uturn_information = async ({ nfc }) => {
   try {
-    const data = await getUturn(nfc_code, { skip: true });
+    const data = await getUturn(nfc, {});
     return contentResult(
       `Success! data: ${JSON.stringify(data || {}, null, 2)}`
     );

@@ -5,6 +5,7 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import {
   add_new_unique_code,
   add_product_collection,
+  add_product_data,
   get_customer_information,
   get_product_stories,
   get_uturn_information,
@@ -134,10 +135,14 @@ server.registerTool(
     title: "Add Product Data",
     description: "Get Product Stories Data with Slug as Parameter",
     inputSchema: {
+      uturn_title: z.string().min(1, "Uturn Title required!"),
+      shopify_title: z.string().min(1, "Shopify Title required!"),
+      color: z.string().min(1, "Color required!"),
+      sku: z.string().optional(),
       slug: z.string().min(1, "Slug required!"),
     },
   },
-  get_product_stories
+  add_product_data
 );
 
 // 8. ADD_UNIQUE_CODE

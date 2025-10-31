@@ -1,4 +1,3 @@
-
 {
   "mcpServers": {
     "nfc-server": {
@@ -15,7 +14,8 @@
         "ATLAS_ADDRESS": "compassnfc.upzeusp.mongodb.net",
         "ATLAS_COLLECTION": "test",
         "UTURN_API": "https://compass.utntech.com/api/verify-nfc",
-        "KEY": "black_owl"
+        "KEY": "black_owl",
+        "back": ""
       }
     }
   },
