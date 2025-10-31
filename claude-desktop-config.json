@@ -8,9 +8,9 @@
         "SHOPIFY_STORE_DOMAIN": "https://62e5c5-55.myshopify.com",
         "SHOPIFY_API_VERSION": "2024-01",
         "SHOPIFY_STOREFRONT_ACCESSTOKEN": "29d256df6d33d3bd0f8fda1cd0539e02",
-        "ATLAS_NAME": "antikodedevelop:qEGSobyFMEp4nYeH",
-        "ATLAS_ADDRESS": "compassnfc.upzeusp.mongodb.net",
-        "ATLAS_COLLECTION": "test",
+        "ATLAS_NAME": "compass_dev:rR9COYJoJO3ACbh7",
+        "ATLAS_ADDRESS": "compassnfc.w68cr.mongodb.net",
+        "ATLAS_COLLECTION": "compassnfc",
         "UTURN_API": "https://compass.utntech.com/api/verify-nfc",
         "KEY": "black_owl"
       }
